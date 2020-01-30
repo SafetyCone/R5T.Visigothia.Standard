@@ -2,6 +2,7 @@
 
 using Microsoft.Extensions.DependencyInjection;
 
+using R5T.Dacia;
 using R5T.Visigothia.Local.Standard;
 
 
@@ -17,6 +18,15 @@ namespace R5T.Visigothia.Standard
             services.AddLocalUserProfileDirectoryProvider();
 
             return services;
+        }
+
+        /// <summary>
+        /// Adds the standard <see cref="IUserProfileDirectoryPathProvider"/> service.
+        /// </summary>
+        public static ServiceAction<IUserProfileDirectoryPathProvider> AddUserProfileDirectoryPathProviderAction(this IServiceCollection services)
+        {
+            var serviceAction = new ServiceAction<IUserProfileDirectoryPathProvider>(() => services.AddLocalUserProfileDirectoryProvider());
+            return serviceAction;
         }
     }
 }
