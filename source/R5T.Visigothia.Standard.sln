@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Visigothia.Local.Defaul
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Visigothia.Base", "..\..\R5T.Visigothia.Base\source\R5T.Visigothia.Base\R5T.Visigothia.Base.csproj", "{17240784-BFFA-4BDC-BBAF-3A9F2BAB9B9B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dacia.Extensions", "..\..\R5T.Dacia.Extensions\source\R5T.Dacia.Extensions\R5T.Dacia.Extensions.csproj", "{DEF4494F-196F-4200-8B00-8D0AF31A44E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +115,18 @@ Global
 		{17240784-BFFA-4BDC-BBAF-3A9F2BAB9B9B}.Release|x64.Build.0 = Release|Any CPU
 		{17240784-BFFA-4BDC-BBAF-3A9F2BAB9B9B}.Release|x86.ActiveCfg = Release|Any CPU
 		{17240784-BFFA-4BDC-BBAF-3A9F2BAB9B9B}.Release|x86.Build.0 = Release|Any CPU
+		{DEF4494F-196F-4200-8B00-8D0AF31A44E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF4494F-196F-4200-8B00-8D0AF31A44E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF4494F-196F-4200-8B00-8D0AF31A44E3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DEF4494F-196F-4200-8B00-8D0AF31A44E3}.Debug|x64.Build.0 = Debug|Any CPU
+		{DEF4494F-196F-4200-8B00-8D0AF31A44E3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DEF4494F-196F-4200-8B00-8D0AF31A44E3}.Debug|x86.Build.0 = Debug|Any CPU
+		{DEF4494F-196F-4200-8B00-8D0AF31A44E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF4494F-196F-4200-8B00-8D0AF31A44E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF4494F-196F-4200-8B00-8D0AF31A44E3}.Release|x64.ActiveCfg = Release|Any CPU
+		{DEF4494F-196F-4200-8B00-8D0AF31A44E3}.Release|x64.Build.0 = Release|Any CPU
+		{DEF4494F-196F-4200-8B00-8D0AF31A44E3}.Release|x86.ActiveCfg = Release|Any CPU
+		{DEF4494F-196F-4200-8B00-8D0AF31A44E3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -122,6 +136,7 @@ Global
 		{70B535E3-EC61-4642-A355-8F3DCAA261DF} = {D75E5FDA-5883-4BAE-8C58-B41BDF7ECEA5}
 		{FDBDC26C-4160-4B58-B3FA-D9F191C79430} = {D75E5FDA-5883-4BAE-8C58-B41BDF7ECEA5}
 		{17240784-BFFA-4BDC-BBAF-3A9F2BAB9B9B} = {D75E5FDA-5883-4BAE-8C58-B41BDF7ECEA5}
+		{DEF4494F-196F-4200-8B00-8D0AF31A44E3} = {D75E5FDA-5883-4BAE-8C58-B41BDF7ECEA5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F998E286-BFEA-4112-91B7-909811314DBA}
